@@ -1,10 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Merry Christmas!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Making Christmas Card Workshop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #fefcf9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(90deg, #c2185b, #d32f2f);
+      color: white;
+      padding: 2rem 1rem;
+      font-family: 'Mountains of Christmas', cursive;
+      font-size: 2.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h2 {
+      color: #b71c1c;
+      font-family: 'Mountains of Christmas', cursive;
+      margin-top: 2rem;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      font-family: 'Mountains of Christmas', cursive;
+      font-size: 1.2rem;
+      color: #c2185b;
+      margin-bottom: 0.5rem;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0.8rem;
+    }
+    .download-btn {
+      background-color: #c2185b;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .download-btn:hover {
+      background-color: #ad1457;
+    }
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h1>🎄 Merry Christmas! 🎅</h1>
-  <p>Wishing you a wonderful holiday season.</p>
+  <header>
+    🎄 Making Christmas Card Workshop 🎅
+  </header>
+
+  <h2>Tree Example 1</h2>
+  <div class="gallery">
+    <div class="card">
+      <h3>Tree 14 - Part 1</h3>
+      <img src="tree-14-1.png" alt="Tree 14 part 1">
+      <a href="tree-14-1.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Tree 14 - Part 2</h3>
+      <img src="tree-14-2.png" alt="Tree 14 part 2">
+      <a href="tree-14-2.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Tree 14 - Part 3</h3>
+      <img src="tree-14-3.png" alt="Tree 14 part 3">
+      <a href="tree-14-3.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+  </div>
+
+  <h2>Tree Example 2</h2>
+  <div class="gallery">
+    <div class="card">
+      <h3>Tree 13 - Part 1</h3>
+      <img src="tree-13-1.png" alt="Tree 13 part 1">
+      <a href="tree-13-1.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Tree 13 - Part 2</h3>
+      <img src="tree-13-2.png" alt="Tree 13 part 2">
+      <a href="tree-13-2.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Tree 13 - Part 3</h3>
+      <img src="tree-13-3.png" alt="Tree 13 part 3">
+      <a href="tree-13-3.png" download>
+        <button class="download-btn">Download</button>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Making Christmas Card Workshop | Designed by Christine 🎨
+  </footer>
 </body>
 </html>
